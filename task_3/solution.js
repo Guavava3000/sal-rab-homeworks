@@ -7,7 +7,7 @@ function renderCartItem(item) {
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
     // id - идентификатор
     // title - наименование
-    // price - цена
+    // price - ценаgit clone git@github.com:Guavava3000/sal-rab-homeworks.git
     // count - количество
     
     // сформируйте строку itemCountText вида:
@@ -15,7 +15,7 @@ function renderCartItem(item) {
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
     let itemCountText = ""                          // 1. Создайте переменную itemCountText, равную пустой строке
-    itemCountText = itemCountText + item.count      // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
+    itemCountText = itemCountText + item.count       // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
     itemCountText = itemCountText + ` × `           // 3. Присвойте переменной itemCountText результат склеивания itemCountText и ` × `
     itemCountText = itemCountText + item.price      // 4. Присвойте переменной itemCountText результат склеивания itemCountText и цены
     itemCountText = itemCountText + ` ₽ = `         // 5. Присвойте переменной itemCountText результат склеивания itemCountText и ` ₽ = `
